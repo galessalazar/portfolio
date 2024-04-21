@@ -1,0 +1,9 @@
+/* I added this thinking it should auto scroll the page, so far, no */
+:target scroll {
+  scroll-behavior: smooth;
+}
+
+.scrollable {
+  height: 100px;
+  overflow-y:auto;
+}
