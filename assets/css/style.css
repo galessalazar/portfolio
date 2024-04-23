@@ -1,9 +1,33 @@
-/* I added this thinking it should auto scroll the page, so far, no */
-:target scroll {
-  scroll-behavior: smooth;
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: right;
+  color: #49cf2e;
+  text-align: center;
+  padding: 24px 26px;
+  text-decoration: underline dotted;
+  font-size: 20px;
 }
 
-.scrollable {
-  height: 100px;
-  overflow-y:auto;
+.topnav a:hover {
+  background-color: #1319d2;
+  color: black;
 }
+/* This active keeps the about icon different from the other two */
+.topnav a.active {
+  background-color: #bfdd17;
+  color: white;
+}
+            body {
+                margin: 0;
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: aqua;
+            }
+.images {
+  display: flex;
+  flex-grow: 20;
+}
+
+
